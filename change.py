@@ -8,5 +8,4 @@ def change():
     total_int = int(money) - int(expense) - 1
     print(total_int)
     print(f"Centavos:")
-    resto_float = int((money - expense - total_int) *100)
-    print(resto_float)
+    print(int((money - expense - total_int) *100))
