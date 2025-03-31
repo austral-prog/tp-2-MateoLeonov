@@ -5,7 +5,7 @@ def change():
     print(f"Ingresar gasto: \n{expense}")
     print(f"Dinero recibido \n{money}\n")
     print(f"Vuelto \n\nPesos:")
-    total_int = int(money) - int(expense) - 1
-    print(total_int)
+    vuelto = money - expense
+    print(int(vuelto))
     print(f"Centavos:")
     print(int((money - expense - total_int) *100))
